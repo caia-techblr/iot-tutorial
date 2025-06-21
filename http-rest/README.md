@@ -83,7 +83,7 @@ curl -v -X POST -d @telemetry-data-as-object.json https://demo.thingsboard.io/ap
 * [Retrieve feeds from Thingspeak channel](thingspeak-get-data.py)
 * [Updating Thingspeak channel using GET](thingspeak-get-update.py)
 * [Updating Thingspeak channel using POST](thingspeak-post.py)
-* [Updating ThingsBoard Telemetry[(thingsboard-post.py)
+* [Updating ThingsBoard Telemetry](thingsboard-post.py)
 
 ## References
 * https://www.dummy.restapiexample.com/
