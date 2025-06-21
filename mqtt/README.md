@@ -59,3 +59,7 @@ client.loop_forever()
 * Modify python examples to connect with IOT Platform (thingspeak/thingsboard)
 
 ## Skeleton code
+* [Publish data to Thingspeak](thingspeak-pub.py)
+* [Subscribe to ThingsBoard](thingspeak-sub.py)
+* [Publish data to ThingsBoard](thingsboard-pub.py)
+* [Subsribe to ThingsBoard](thingsboard-sub.py)
