@@ -1,13 +1,16 @@
-# Install MQTT Broker
+# Install Mosquitto Broker, Mosquitto Clients & Python paho library
 ```
-sudo apt install mosquitto  # on laptop/desktop
-sudo netstat -ntpl          # Check port number 1883 is in use
+sudo apt install mosquitto         # on laptop/desktop
+sudo netstat -ntpl                 # Check port number 1883 is in use
+sudo apt install mosquitto-clients # preferabl on Rpi, on laptop/desktop if Rpi not available
+sudo pip install paho-mqtt         # preferabl on Rpi, on laptop/desktop if Rpi not available
 ```
-
-# Install MQTT Clients
-```
-sudo apt install mosquitto-clients # On Rpi
-```
+# Public Brokers
+* HiveMQ Broker URL : "broker.hivemq.com", port#1883
+* HiveMQ Websocket client : "https://www.hivemq.com/demos/websocket-client"
+* Other brokers
+  * mqtt-dashboard.com
+  * test.moquitto.org
 
 # Using mosquitto client utils
 ```
