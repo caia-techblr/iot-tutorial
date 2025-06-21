@@ -1,5 +1,5 @@
 * [Outline](Outline.md)
-* [Node-RED)(node-red)
+* [Node-RED usage](node-red)
 * [MQTT](mqtt)
 * [HTTP REST](http-rest)
 * [IOT Platforms](iot-platforms)
