@@ -73,9 +73,11 @@ print("Response Body:", response.text)
 ```
 ## ThingSpeak Connectivity
 ```
-curl -X GET https://api.thingspeak.com/update?api_key=WR_KEY&field1=24&field2=60
-curl -X GET https://api.thingspeak.com/channels/2997635/feeds.json?results=5
-curl -X GET https://api.thingspeak.com/channels/2997635/fields/1.json?results=2
+WR_KEY=<<Your Write API Key>>
+CHANNEL_ID=<<Your Channel ID>>
+curl -X GET https://api.thingspeak.com/update?api_key=$WR_KEY&field1=24&field2=60
+curl -X GET https://api.thingspeak.com/channels/$CHANNEL_ID/feeds.json?results=5
+curl -X GET https://api.thingspeak.com/channels/$CHANNEL_ID/fields/1.json?results=5
 ```
 ## ThingsBoard conenctivity
 ```
