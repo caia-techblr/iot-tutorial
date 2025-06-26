@@ -71,6 +71,12 @@ response = requests.post(url, data=json.dumps(payload), headers=myheaders)
 print("Status Code:", response.status_code)
 print("Response Body:", response.text)
 ```
+## ThingSpeak Connectivity
+```
+curl -X GET https://api.thingspeak.com/update?api_key=WR_KEY&field1=24&field2=60
+curl -X GET https://api.thingspeak.com/channels/2997635/feeds.json?results=5
+curl -X GET https://api.thingspeak.com/channels/2997635/fields/1.json?results=2
+```
 ## ThingsBoard conenctivity
 ```
 ACCESS_TOKEN="<Access token of the device>"
